@@ -1,0 +1,91 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.index-title{
+  font-size: 2em;
+  font-weight: bold;
+}
+body{
+	margin:30px;
+}
+.index-text{
+	font-size: 13px;
+  margin: 30px auto;
+}
+.book-title{
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.text-box{
+	width:100%;
+  padding-left: 30px;
+}
+.new-box{
+width: 700px;
+display: inline-block;
+ height:auto;
+}
+.new-title{
+  float: left;
+}
+.new-body{
+}
+.title{
+  width: 192px;
+  text-align: center;
+}
+.success-message{
+	color:green;
+	margin:15px 0;
+}
+.flash{
+	color:green;
+}
+.body{
+  width: 400px;
+  text-align: center;
+}
+.new-subbox{
+  float:left;
+}
+.new-title{
+  width: 192px;
+  color: #333;
+}
+.new-body{
+  width: 400px;
+  text-align: center;
+  color: #333;
+}
+.new-title-box{
+  font-weight: bold;
+}
+.new-title-text{
+  width: 192px;
+  float: left;
+  text-align: center;
+  font-weight: normal;
+}
+.new-body-text{
+  width: 400px;
+  text-align: center;
+}
+.edit-bottom{
+ float: right;
+}
+.form-box::after{
+  display: block;
+}

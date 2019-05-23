@@ -1,0 +1,11 @@
+<%= form_for(@post) do |post| %>
+
+	<p>title</p>
+	<%= post.text_field :title %>
+
+	<p>text</p>
+	<%= post.text_area :body %>
+
+	<%= post.submit 'update book' %>
+
+<% end %>
