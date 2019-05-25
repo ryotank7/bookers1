@@ -7,5 +7,5 @@
 <p><%= @post.body %></p>
 
 
-<%= link_to "Edit", edit_post_path(:id) %>
-<%= link_to "back", new_post_path %>
+<%= link_to "Edit", edit_post_path(@post.id), class:"edit-book" %>
+<%= link_to "back", new_post_path, class:"back-book" %>

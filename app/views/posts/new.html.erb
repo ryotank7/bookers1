@@ -23,9 +23,9 @@
 						</div>
 				</div>
 						<div class="edit-bottom">
-										<%= link_to "show", post_path(post.id) %>
-										<%= link_to "Edit", edit_post_path(post.id) %>
-										<%= link_to "destroy",  post_path(post.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
+										<%= link_to "show", post_path(post.id),class:"show-book" %>
+										<%= link_to "Edit", edit_post_path(post.id),class:"edit-book" %>
+										<%= link_to "destroy",  post_path(post.id), method: :delete, "data-confirm" => "本当に削除しますか？",class:"destroy-book" %>
 						</div>
 				</div>
 		<% end %>
