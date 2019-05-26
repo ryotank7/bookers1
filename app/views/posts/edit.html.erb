@@ -1,11 +1,11 @@
 <%= form_for(@post) do |post| %>
 
 	<p>title</p>
-	<%= post.text_field :title %>
+	<%= post.text_field :title, class:"book-title"%>
 
 	<p>text</p>
-	<%= post.text_area :body %>
+	<%= post.text_area :body, class:"book-body"  %>
 
-	<%= post.submit 'update book' %>
+	<%= post.submit 'update book',class:"book-bottom" %>
 
 <% end %>
